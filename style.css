@@ -539,4 +539,23 @@ header .btn {
     .logo {
         width: 100px;
     }
+
+    .footer-section li {
+        width: 90%;
+        font-size: 10px;
+    }
+
+    .language-selector {
+        font-size: 10px;
+    }
+
+    .proper {
+        width: 90%;
+        font-size: 15px;
+        height: 80px;
+    }
+
+    .abv-fttr-txt {
+        font-size: 20px;
+    }
 }
