@@ -93,6 +93,11 @@ body{
     border: 1px solid #dddddda4;
     border-radius: 25px;
     text-align: center;
+    appearance: none;
+}
+
+#language .lang-opt {
+    color: #eaeaea;
 }
 
 .abv-eml-txt {
@@ -431,4 +436,75 @@ header .btn {
     color: #888;
     font-size: 12px;
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .nav-pane {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #language {
+        width: 100%;
+        transform: scale(0.8);
+    }
+
+    .signup-button {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .contact-one {
+        flex-direction: column;
+        align-items:  center;
+    }
+
+    .email-input {
+        text-align: center;
+        width: 80%;
+    }
+
+    .get-started-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .netflix-screen {
+        height: 40vh;
+    }
+
+    .logo {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-pane {
+        padding: 10px;
+    }
+
+    .signup-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .email-input {
+        font-size: 14px;
+    }
+
+    .get-started-btn {
+        font-size: 14px;
+    }
+
+    .netflix-screen {
+        height: 35vh;
+    }
+
+    .logo {
+        width: 120px;
+    }
 }
